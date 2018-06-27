@@ -1,6 +1,9 @@
 
 # Style Guide Starter
 
+![Travis](https://travis-ci.org/johndavedecano/style-guider.svg?branch=master)
+![Downloads](https://img.shields.io/github/downloads/johndavedecano/style-guider/total.svg)
+
 A boilerplate for creating ui style guide for your organization. 
 Uses story book as development environment. Includes modularly 
 architectured sass files.
