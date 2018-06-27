@@ -1,5 +1,4 @@
 const gulp = require('gulp');
-const browserSync = require('browser-sync').create();
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
@@ -30,8 +29,7 @@ gulp.task('sass', function() {
         suffix:'.min'
     }))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('dist/css/'))
-    .pipe(browserSync.stream());
+    .pipe(gulp.dest('dist/css/'));
 });
 
 gulp.task('default', ['serve', 'sass']);
