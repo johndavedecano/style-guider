@@ -5,6 +5,7 @@ node_js:
   - "node"
 sudo: true
 install:
+  - npm i -g @storybook/cli
   - npm install
 script:
   - npm run build
