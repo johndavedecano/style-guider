@@ -15,7 +15,8 @@
   "scripts": {
     "dev": "./node_modules/.bin/gulp",
     "build": "./node_modules/.bin/gulp sass",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "author": "John Dave Decano <johndavedecano@gmail.com>",
   "license": "MIT",
