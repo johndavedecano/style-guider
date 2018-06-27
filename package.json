@@ -1,0 +1,40 @@
+{
+  "name": "style-guider",
+  "version": "0.0.7",
+  "description": "A starter CSS framework.",
+  "main": "src/main.scss",
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "framework",
+    "starter",
+    "responsive",
+    "flexbox"
+  ],
+  "scripts": {
+    "dev": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp sass",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "author": "John Dave Decano <johndavedecano@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-storysource": "^3.4.8",
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "css-loader": "^0.28.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
+  }
+}
